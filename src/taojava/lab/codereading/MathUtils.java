@@ -13,9 +13,9 @@ public class MathUtils {
     int square(int x) 
     { return
 	    x * x;  } // square(int)
-    
+
     /** 
      * Square a double.
      */
-    public static double square(double x) { return x+x; } // square(double)
+    public static double square(double x) { return x * x; } // square(double)
 } // class MathUtils
